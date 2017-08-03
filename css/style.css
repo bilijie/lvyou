@@ -1,0 +1,146 @@
+/* line 1, style.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 5, style.scss */
+li {
+  list-style: none; }
+
+/* line 8, style.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+/* line 13, style.scss */
+body {
+  font-size: 16px;
+  position: relative; }
+
+/* line 17, style.scss */
+.index-header {
+  width: 100%; }
+  /* line 19, style.scss */
+  .index-header .header {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999; }
+    /* line 28, style.scss */
+    .index-header .header i {
+      color: #fff; }
+    /* line 31, style.scss */
+    .index-header .header input {
+      display: inline-block;
+      flex: 1;
+      width: 170px;
+      height: 30px;
+      border-radius: 30px;
+      border: 1px solid #ccc; }
+  /* line 41, style.scss */
+  .index-header .swiper-container img {
+    width: 100%;
+    height: 170px; }
+
+/* line 47, style.scss */
+.index-content {
+  flex: 1; }
+  /* line 49, style.scss */
+  .index-content .hotel {
+    width: 100%;
+    height: 90px;
+    background: #ccc;
+    display: flex;
+    margin-bottom: 3px; }
+    /* line 55, style.scss */
+    .index-content .hotel P {
+      flex: 1; }
+    /* line 58, style.scss */
+    .index-content .hotel .one {
+      width: 95%;
+      margin-right: 4px;
+      margin-left: 3px;
+      background: #fe5655;
+      display: inline-block;
+      text-align: center; }
+      /* line 65, style.scss */
+      .index-content .hotel .one img {
+        width: 80px;
+        height: 50px;
+        margin-top: 10px; }
+      /* line 70, style.scss */
+      .index-content .hotel .one span {
+        color: #fff;
+        font-size: 18px; }
+    /* line 75, style.scss */
+    .index-content .hotel .ones {
+      width: 100%; }
+      /* line 77, style.scss */
+      .index-content .hotel .ones span {
+        display: inline-block;
+        width: 46%;
+        height: 40px;
+        text-align: center;
+        line-height: 46px;
+        margin-left: 2px;
+        margin-top: 2px;
+        background: #fe5655;
+        color: #fff; }
+      /* line 88, style.scss */
+      .index-content .hotel .ones .color {
+        background: #02aaf3; }
+      /* line 91, style.scss */
+      .index-content .hotel .ones .colors {
+        background: #7cb63d; }
+    /* line 95, style.scss */
+    .index-content .hotel .color {
+      background: #02aaf3; }
+    /* line 98, style.scss */
+    .index-content .hotel .colors {
+      background: #7cb63d; }
+  /* line 102, style.scss */
+  .index-content .bom {
+    width: 100%;
+    height: 50px;
+    background: #ccc;
+    margin-top: 8px;
+    display: flex; }
+    /* line 108, style.scss */
+    .index-content .bom span {
+      flex: 1;
+      display: inline-block;
+      width: 33%;
+      color: #fff;
+      background: orange;
+      margin-left: 4px;
+      text-align: center;
+      line-height: 50px; }
+
+/* line 120, style.scss */
+.index-footer {
+  height: 44px;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  font-size: 14px;
+  display: flex; }
+  /* line 127, style.scss */
+  .index-footer .curr {
+    color: #02aaf3; }
+  /* line 130, style.scss */
+  .index-footer a {
+    width: 20%;
+    color: black;
+    flex: 1;
+    text-align: center; }
+    /* line 135, style.scss */
+    .index-footer a i {
+      display: block;
+      font-size: 24px; }
+
+/*# sourceMappingURL=style.css.map */
